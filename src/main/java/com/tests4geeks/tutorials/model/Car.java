@@ -54,5 +54,13 @@ public class Car {
 	public void setYear(Integer year) {
 		this.year = year;
 	}
+
+	@Override
+	public String toString() {
+		return "Car [id=" + id + ", make=" + make + ", model=" + model + ", description=" + description + ", year="
+				+ year + "]";
+	}
+	
+	
 	
 }
